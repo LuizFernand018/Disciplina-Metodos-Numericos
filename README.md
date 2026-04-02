@@ -12,7 +12,7 @@ O objetivo deste trabalho é explorar algoritmos que utilizam soluções não-do
 * **Rafael Alves**
 * **Rodrigo Herminio**
 
-## Estrutura do Repositório
+## 📂 Estrutura do Repositório
 
 O repositório está organizado da seguinte forma:
 
@@ -21,8 +21,8 @@ O repositório está organizado da seguinte forma:
 * **`Contraexemplo/`**: Pasta dedicada à demonstração de limitações do método, como o fenómeno de *ill-scaledness*.
 * **`USO_DE_IA.md`**: Relatório de transparência sobre a utilização de ferramentas de Inteligência Artificial no suporte à compreensão e estruturação dos materiais.
 
-## Abordagem Técnica
-O trabalho foca-se nos seguintes pontos do artigo de Takagi et al.:
+## 🎯 Abordagem Técnica
+O trabalho foca-se nos seguintes pontos:
 1.  **Metodologia de Superfície de Resposta:** Uso de Redes Neurais de Base Radial (RBNN) para estimar o conjunto de Pareto.
 2.  **Eficiência em Dados Escassos:** Como obter aproximações de qualidade com apenas 10 soluções iniciais e 150 avaliações de função.
 3.  **Análise de Desempenho:** Avaliação baseada nas suítes de teste standard DTLZ e WFG.
