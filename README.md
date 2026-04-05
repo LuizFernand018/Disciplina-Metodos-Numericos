@@ -1,30 +1,28 @@
 # Otimização Multiobjetivo Supervisionada via Estimativa
 
-Este repositório contém o material técnico desenvolvido para o estudo e análise do artigo científico **"Supervised Multi-objective Optimization Algorithm Using Estimation"**, publicado no 2022 IEEE Congress on Evolutionary Computation (CEC).
+Este repositório contém o material técnico desenvolvido para o estudo e análise do artigo científico **"Supervised Multi-objective Optimization Algorithm Using Estimation"**, publicado no *2022 IEEE Congress on Evolutionary Computation (CEC)*.
 
-O objetivo deste trabalho é explorar algoritmos que utilizam soluções não-dominadas conhecidas (dados supervisionados) para mapear a fronteira de Pareto de forma eficiente em problemas de alto custo computacional.
+O trabalho responde à questão fundamental da disciplina: **quando métodos numéricos clássicos (como Newton-Raphson ou Busca Exaustiva) tornam-se inadequados devido ao custo computacional proibitivo?** O algoritmo de Takagi propõe contornar essa limitação utilizando soluções conhecidas como "atalhos" para mapear a fronteira de Pareto.
 
 ## 👥 Equipe
-* **Davi de França**
-* **Edmilson Filho**
-* **Flavio da Silva**
-* **Luiz Fernando**
-* **Rafael Alves**
-* **Rodrigo Herminio**
+* Davi de França
+* Edmilson Filho
+* Flavio da Silva
+* Luiz Fernando
+* Rafael Alves
+* Rodrigo Herminio
 
 ## 📂 Estrutura do Repositório
+* **Sintese_Tecnica.pdf**: Documento com a síntese dos conceitos, metodologia e análise dos resultados.
+* **Pareto_Optimization.pdf**: Slides utilizados na apresentação oral.
+* **Contraexemplo/**: Pasta com o arquivo `Pareto.ipynb`, demonstrando por que a interpolação linear simples falha em capturar a curvatura da fronteira (justificando o uso de RBNN).
+* **USO_DE_IA.md**: Relatório de transparência sobre o uso de ferramentas de IA no suporte à estruturação do material.
 
-O repositório está organizado da seguinte forma:
+## 🎯 Abordagem Técnica e Crítica
+O foco do trabalho está na transição do cálculo numérico tradicional para modelos de estimativa:
+* **Metodologia de Superfície de Resposta (RSM):** Uso de Redes Neurais de Base Radial (RBNN) para estimar a fronteira.
+* **Eficiência em Dados Escassos:** Obtenção de resultados com apenas 10 soluções iniciais e 150 avaliações de função.
+* **Análise Crítica:** O grupo identificou que a principal limitação do método reside no fenômeno de *ill-scaledness*. Discutimos como a sensibilidade numérica do modelo exige uma curadoria rigorosa dos dados supervisionados iniciais, pois o "atalho" neural é tão bom quanto as referências que recebe.
 
-* **`Sintese_Tecnica.pdf`**: Documento detalhado com a síntese dos conceitos, metodologia (RBNN, Espaço de Objetivos vs. Variáveis) e análise dos resultados experimentais.
-* **`Pareto_Optimization.pdf`**: Material visual utilizado para a exposição técnica do algoritmo.
-* **`Contraexemplo/`**: Pasta dedicada à demonstração de limitações do método, como o fenómeno de *ill-scaledness*.
-* **`USO_DE_IA.md`**: Relatório de transparência sobre a utilização de ferramentas de Inteligência Artificial no suporte à compreensão e estruturação dos materiais.
-
-## 🎯 Abordagem Técnica
-O trabalho foca-se nos seguintes pontos:
-1.  **Metodologia de Superfície de Resposta:** Uso de Redes Neurais de Base Radial (RBNN) para estimar o conjunto de Pareto.
-2.  **Eficiência em Dados Escassos:** Como obter aproximações de qualidade com apenas 10 soluções iniciais e 150 avaliações de função.
-3.  **Análise de Desempenho:** Avaliação baseada nas suítes de teste standard DTLZ e WFG.
-
-*Este repositório foi criado para fins estritamente académicos no âmbito da disciplina Métodos Númericos, do curso de Ciência da Computação da Universidade Católica de Pernambuco (UNICAP)*
+---
+*Este repositório foi criado para fins académicos no âmbito da disciplina **Métodos Numéricos**, do curso de Ciência da Computação da **Universidade Católica de Pernambuco (UNICAP)**.*
