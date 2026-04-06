@@ -18,6 +18,14 @@ O trabalho responde à questão fundamental da disciplina: **quando métodos num
 * **Contraexemplo/**: Pasta com o arquivo `Pareto.ipynb`, demonstrando por que a interpolação linear simples falha em capturar a curvatura da fronteira (justificando o uso de RBNN).
 * **USO_DE_IA.md**: Relatório de transparência sobre o uso de ferramentas de IA no suporte à estruturação do material.
 
+## 📄 Artigo Base
+O projeto foi desenvolvido com base no estudo:
+
+* **Título:** Supervised Multi-objective Optimization Algorithm Using Estimation
+* **Autores:** Tomoaki Takagi, Keiki Takamada, Hiroyuki Sato
+* **Evento:** 2022 IEEE Congress on Evolutionary Computation (CEC)
+* **DOI:** 10.1109/CEC55065.2022.9870375
+
 ## 🎯 Abordagem Técnica e Crítica
 O foco do trabalho está na transição do cálculo numérico tradicional para modelos de estimativa:
 * **Metodologia de Superfície de Resposta (RSM):** Uso de Redes Neurais de Base Radial (RBNN) para estimar a fronteira.
