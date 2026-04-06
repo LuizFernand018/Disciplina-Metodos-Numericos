@@ -19,7 +19,7 @@ O trabalho responde à questão fundamental da disciplina: **quando métodos num
 * **USO_DE_IA.md**: Relatório de transparência sobre o uso de ferramentas de IA no suporte à estruturação do material.
 
 ## 📄 Artigo Base
-O projeto foi desenvolvido com base no estudo:
+Toda a pesquisa foi desenvolvida com base no estudo:
 
 * **Título:** Supervised Multi-objective Optimization Algorithm Using Estimation
 * **Autores:** Tomoaki Takagi, Keiki Takamada, Hiroyuki Sato
