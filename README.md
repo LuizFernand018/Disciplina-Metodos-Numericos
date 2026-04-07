@@ -33,4 +33,4 @@ O foco do trabalho está na transição do cálculo numérico tradicional para m
 * **Análise Crítica:** O grupo identificou que a principal limitação do método reside no fenômeno de *ill-scaledness*. Discutimos como a sensibilidade numérica do modelo exige uma curadoria rigorosa dos dados supervisionados iniciais, pois o "atalho" neural é tão bom quanto as referências que recebe.
 
 ---
-*Este repositório foi criado para fins académicos no âmbito da disciplina **Métodos Numéricos**, do curso de Ciência da Computação da **Universidade Católica de Pernambuco (UNICAP)**.*
+*Este repositório foi criado para fins acadêmicos no âmbito da disciplina **Métodos Numéricos**, do curso de Ciência da Computação da **Universidade Católica de Pernambuco (UNICAP)**.*
